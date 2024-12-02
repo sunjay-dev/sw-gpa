@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #e0f7fa, #f3e5f5);
+    color: #333;
+    text-align: center;
+  }
+  header {
+    padding: 20px;
+    background-color: #6200ea;
+    color: white;
+    font-size: 24px;
+  }
+  .subtext {
+    font-size: 16px;
+    color: #d1c4e9;
+  }
+  .container {
+    margin: 30px auto;
+    width: 90%;
+    max-width: 600px;
+  }
+  .semester-card {
+    background: white;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+  .semester-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  .semester-card h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #6200ea;
+  }
+  footer {
+    margin-top: 30px;
+    padding: 10px;
+    background: #6200ea;
+    color: white;
+    font-size: 14px;
+  }
+  a {
+    text-decoration: none;
+    color: #ffcc80;
+  }
